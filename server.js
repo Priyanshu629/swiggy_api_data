@@ -8,7 +8,7 @@ const port = process.env.PORT || 5000;
 const fs = require("fs");
 app.use(
   cors({
-    origin: "http://localhost:1234",
+    origin: "https://priyanshu-food-app.netlify.app",
     methods: ["GET"],
   })
 );
