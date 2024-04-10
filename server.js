@@ -16,7 +16,7 @@ app.use(
 const dbConnect = () =>
   mongoose
     .connect(
-      "mongodb+srv://mishrapriyanshu793:v3ZvK45OTL7mKtsx@mycluster.7voxtp7.mongodb.net/ProductsDB"
+      "mongodb+srv://mishrapriyanshu793:priyanshuabc@mycluster.7voxtp7.mongodb.net/ProductsDB"
     )
     .then(() => {
       console.log("Mongodb Connected Successfully");
